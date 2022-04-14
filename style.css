@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
+body{
+margin: 0em;
+font-family: 'Poppins', sans-serif;;
+}
+
+.logo img {
+   height: 1.5em;
+  border-radius: 45%;
+  margin-top: 2em;
+  
+
+}
+a{
+  text-decoration: none;
+}
+.logo{
+  display: inline-flex;
+  margin-left: 1.5em;
+}
+header{
+  display: flex;
+}
+.navbar ul{
+  display: inline-flex;
+  list-style: none;
+  
+}
+
+.dropdownfull{
+  
+  margin-left: 5em;
+}
+.collapse-navbar{
+  margin-left: 15em;
+  margin-top: -2em;
+}
+.navbar{
+  margin-left: 5em;
+  margin-top: 2.3em;
+}
+.logo h1{
+margin-left: .5em;
+}
+.sidebar img{
+  height: 1em;
+  border-radius: 50%;
+  
+}
+.sidebar ul{
+  list-style: none;
+}
+.sidebar{
+  margin-left: -1.5em;
+}
+.mainsection .card1,.card2,.card3,.card4,.card5{
+  display:inline-flex;
+  padding-left:1em;
+}
+.mainsection .card-footer {
+  font-size: .7em;
+  
+}
+.mainsection span{
+  color: gray;
+}
+.debitcardsection .cardfooter .card-footer1,.card-footer2{
+  display: 
+  inline-flex;
+  font-size: .8em;
+  padding-right: .5em;
+  }
+  .debitcardsection span{
+    padding-left: .5em;
+  }
+  
+   
+  .maindebitcardsection  .card-body-text-success h5{
+    margin-bottom: -1em;
+  }
+  .maindebitcardsection{
+    background-image:url(images/debitcard.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    padding-left: 1.5em;
+    margin-right: 14em;
+    height: 120%;
+  }
+ .bottommainmainsection{
+   
+  
+ }
+
+ .bottomsection{
+ 
+   margin-top: 1.5em;
+   
+ }
+.mainmainsection{
+ 
+  
+ 
+}
+.sidebar{
+  
+  margin-right: 64em;
+ line-height: 2em;
+  
+}
+.mainpartright{
+  ;
+  margin-right:10em;
+  
+
+}
+ .maindebitcardsection{
+ margin-left: 37em;
+ margin-top: -14em;
+ border-radius: .3em;
+ width: 35%;
+ padding-top: 2em;
+ margin-bottom: -4em;
+
+ 
+
+}
+.mainmainsection,.bottomsection{
+  display: inline-block;
+}
+.sidebar,.mainpartright{
+  display: grid;
+ 
+}
+.mainpartright{
+  margin-left:14em;
+  
+  margin-top: -22em;
+  width: 70%;
+  height: 160%;
+  
+}
+.mainpartright img{
+  height: 15em;
+  
+}
+.card2,.card3,.card4{
+  margin-left: 6em;
+}
+.card1 .card-footer{
+  color:darkgreen;
+}
+.card2 .card-footer{
+  color: red;
+}
+.card3 .card-footer{
+  color: darkgreen;
+}
+.card4 .card-footer{
+  color: darkgrey;
+}
+.form-control-me-2{
+  border-radius: .6em;
+  border-color: yellowgreen;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-width: 2.3px;
+}
+.btn-outline-success{
+  border-radius: .6em;
+  border: none;
+}
+
+form img{
+  height: 1em;
+  border-radius: 50%;
+}
+.navbar .dropdown-menu{
+  
+  display: block;
+
+  
+}
+.dropdownfull{
+  
+  display: inline-block;
+}
+.dropdown-menu{
+  position:absolute;
+
+
+}
+.dropdown-item{
+  display: none;
+}
+
+.dropdownfull:hover .dropdown-item {display: block;}
+.card1,.card2,.card3,.card4{
+  border-style: solid ;
+  border-color: chartreuse;
+}
+a:hover{
+  background-color: beige;
+  color: black;
+
+  
+
+}
+.navbar a:hover{
+  font-size: 1.2rem;
+  border: solid black;
+  border-radius: .3em;
+}
+button:hover{
+  cursor: pointer;
+}
+a{
+  color: black;
+}
+.dropdownfull img{
+  height: 1.3em;
+}
+.mainmainsection .card-title{
+  font-style: normal;
+}
+.dropdownfull .drop{
+  height:1em
+  }
